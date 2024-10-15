@@ -1,0 +1,9 @@
+programa {
+  funcao inicio() {
+   real c, conversao
+   escreva ("Digite uma temperatura: \n")
+   leia (c)
+   conversao = c*1.8+32
+   escreva ("A temperatura em Fahrenheit é: \n", conversao) 
+  }
+}
