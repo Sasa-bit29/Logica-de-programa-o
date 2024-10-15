@@ -2,9 +2,10 @@ programa {
   funcao inicio() {
     real pi, raio, area
     pi=3.14
+
     escreva ("Digite um número: \n")
     leia (raio)
     area = pi*raio*raio 
-    escreva ("Área é igual: \n", area)
+    escreva ("A área é igual: \n", area)
   }
 }
