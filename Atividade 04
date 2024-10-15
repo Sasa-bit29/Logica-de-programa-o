@@ -6,8 +6,8 @@ programa {
   leia (a)
   leia (b)
   se (a>b)
-  escreva ("É maior \n", a)
+  escreva ("O maior número é: \n", a)
   senao 
-  escreva ("É maior \n", b)
+  escreva ("O maior número é: \n", b)
   }
 }
