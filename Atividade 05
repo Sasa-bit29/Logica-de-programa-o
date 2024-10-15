@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    inteiro a, b, c, resultado
+    real a, b, c, resultado 
 
     escreva ("Digite um número: \n")
     leia (a)
@@ -10,5 +10,6 @@ programa {
     leia (c)
     resultado = (a+b+c)/3
     escreva ("A média é: \n", resultado)
+  
   }
 }
