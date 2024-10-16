@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     
-    inteiro N, i, a, b, proximo
+    inteiro N, contador, a, b, proximo
     a = 0
     b = 1
     escreva("Informe o número de termos da sequência de Fibonacci: ")
@@ -13,7 +13,7 @@ programa {
       escreva(b, " ")
     }
     
-    para(i = 3; i <= N; i++) {
+    para(contador = 3; contador <= N; i++) {
       proximo = a + b
       escreva(proximo, " ")
       a = b
