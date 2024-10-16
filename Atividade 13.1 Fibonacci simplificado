@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro n, contador, a, b, proximo
+    a = 0
+    b = 1
+
+    escreva("Informe o número para a sequência de Fibonacci: \n")
+    leia (n)
+
+    para(contador = 3; contador <= n; contador++ ){
+      proximo = a+b
+      escreva(proximo, " ")
+      a = b 
+      b = proximo
+      }
+  }
+}
