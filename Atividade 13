@@ -13,7 +13,7 @@ programa {
       escreva(b, " ")
     }
     
-    para(contador = 3; contador <= N; i++) {
+    para(contador = 3; contador <= N; contador++) {
       proximo = a + b
       escreva(proximo, " ")
       a = b
