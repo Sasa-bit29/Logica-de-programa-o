@@ -1,0 +1,9 @@
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+UF = input("Digite seu estado: ")
+
+print ("\n")
+
+print ("Nome: " + nome) 
+print ("Idade: " + idade)
+print ("UF: " + UF)
