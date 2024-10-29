@@ -1,0 +1,11 @@
+produto = input("Digite o nome do produto: ")
+preco_unit = float(input("Digite o preço: "))
+quantidade = int(input("Digite a quantidade: "))
+total = preco_unit * quantidade
+
+print ("\n")
+
+print ("Produto: ", produto)
+print ("Preço Unit: ", preco_unit)
+print ("Quantidade: ", quantidade)
+print ("Valor total: R$", total)
