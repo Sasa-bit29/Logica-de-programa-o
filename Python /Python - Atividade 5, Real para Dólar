@@ -1,0 +1,8 @@
+num1 = float(input("Digite um valor em real: "))
+
+
+print ("\n")
+ 
+print ("Covertido em dólar: U$", num1 / 5.71)
+ 
+ 
