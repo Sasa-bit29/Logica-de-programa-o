@@ -1,0 +1,12 @@
+nome = input("Digite o produto: ")
+preco = float(input("Digite o preço: "))
+desconto = float(input("Desconto de: ")) 
+valor_desconto = (preco * desconto) / 100
+resultado = preco - valor_desconto
+
+print ("\n")
+
+print ("Nome do produto: ", nome)
+print ("Preço: R$", preco)
+print ("Desconto: ", desconto)
+print ("Valor total: R$", resultado)
