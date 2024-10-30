@@ -1,8 +1,0 @@
-nome = input("Digite o seu nome: ")
-idade = int(input("Digite sua idade: "))
-print ("\n")
-print ("Nome: ", nome)
-if idade >= 18 : 
-    print ("Você é maior de idade.")
-else : 
-  print ("Você é menor de idade.") 
