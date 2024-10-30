@@ -1,0 +1,11 @@
+investimento = float(input("Digite o valor a ser investido: "))
+periodo = int(input("Digite o tempo de duração em meses: "))
+taxa = 0.02
+valor_final = investimento * (1 + taxa) ** periodo 
+
+print ("\n")
+
+print ("Valor inicial: ", investimento)
+print ("Período: ", periodo)
+print ("Taxa: ", taxa)
+print ("Valor total: ", valor_final)
