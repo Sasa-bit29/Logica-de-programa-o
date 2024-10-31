@@ -1,0 +1,4 @@
+numero = float(input("Digite um número: "))
+potencia = numero **2
+print("\n")
+print (numero, "elevado ao quadrado é: ", potencia)
