@@ -4,11 +4,11 @@ vt = salario * 0.06
 
 if salario <= 1412 : 
     inss = salario * 0.075
-    ir = ("Insento")
+    ir = 0 
     
 elif salario >= 1412.01 and salario <= 2259.20  :
     inss = salario * 0.09
-    ir = ("Insento")
+    ir = 0
 
 elif salario >= 2259.21 and salario <= 2666.68 :
     inss = salario * 0.09
@@ -38,7 +38,8 @@ else :
     inss = salario * 0.14
     ir = 0.225
 
-salario_liquido = salario - inss - ir - vt
+salario_liquido = (salario - inss - ir - vt)
+
 print ("\n")
 
 print ("Digite o nome do funcionário: ", nome)
