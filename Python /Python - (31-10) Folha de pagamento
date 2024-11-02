@@ -36,7 +36,7 @@ elif salario >= 4664.69 and salario <=  7786.01 :
 
 else :
     inss = salario * 0.14
-    ir = 0.225
+    ir = salario * 0.225
 
 salario_liquido = (salario - inss - ir - vt)
 
