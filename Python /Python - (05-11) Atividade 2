@@ -1,0 +1,9 @@
+base = float(input("Digite a base: "))
+expoente = int(input("Digite o expoente: "))
+potencia = base ** expoente
+
+print ("\n")
+
+print ("Base: ", base)
+print ("Expoente: ", expoente)
+print ("Resultado: ", potencia)
