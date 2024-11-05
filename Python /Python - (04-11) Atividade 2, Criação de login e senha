@@ -1,0 +1,10 @@
+usuario = input("Crie seu usuário: ")
+senha_1 = input("Crie sua senha: ")
+print ("\n")
+login = input("Login: ")
+senha = input("Senha: ")
+if login == usuario and senha == senha_1 :
+    print ("Bem vindo,", usuario)
+    
+else :
+   print ("Dados inválidos!")
