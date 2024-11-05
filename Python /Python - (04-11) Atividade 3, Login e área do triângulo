@@ -1,1 +1,14 @@
-
+usuario = input("Crie seu usuário: ")
+senha_1 = input("Crie sua senha: ")
+print ("\n")
+login = input("Login: ")
+senha = input("Senha: ")
+print ("\n")
+if login == usuario and senha == senha_1 :
+    base = float(input("Digite a base: "))
+    altura = float(input("Digite a altura: "))
+    calculo = (base * altura) / 2
+    print ("A área do triângulo: ", calculo)
+    
+else :
+   print ("Dados inválidos!")
