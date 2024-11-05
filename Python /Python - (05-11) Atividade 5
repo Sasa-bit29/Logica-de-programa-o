@@ -1,0 +1,13 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+nome_2 = input("Digite seu nome: ")
+idade_2 = int(input("Digite sua idade: "))
+print ("\n")
+if idade > idade_2 : 
+    print (nome, "é mais velho(a) que", nome_2) 
+    
+elif idade < idade_2 : 
+     print (nome, "é mais novo(a) que", nome_2)
+     
+else : 
+    print (nome, "tem a mesma idade que", nome_2)
