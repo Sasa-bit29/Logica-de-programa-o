@@ -1,0 +1,9 @@
+numero_1 = float(input("Insira o 1° número: "))
+numero_2 = float(input("Insira o 2° número: "))
+if numero_2 == 0 : 
+    print ("Não é possível dividir um número por zero!")
+    
+else :
+    calcule = numero_1 / numero_2
+    operacao = "divisão"
+    print ("O resultado da ", operacao, " é ", calcule)
