@@ -1,0 +1,18 @@
+numero_1 = float(input("Insira o 1° número: "))
+numero_2 = float(input("Insira o 2° número: "))
+menu = int(input("Escolha o operador: \n 1 - Soma \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão"))
+print ("\n")
+if menu == 1 : 
+    calcule = numero_1 + numero_2
+    operacao = "soma" 
+elif menu == 2 : 
+    calcule = numero_1 - numero_2
+    operacao = "subtração" 
+elif menu == 3 : 
+    calcule = numero_1 * numero_2
+    operacao = "multiplicação"
+else : 
+    calcule = numero_1 / numero_2
+    operacao = "divisão"
+    
+print ("O resultado da ", operacao, " é ", calcule)
