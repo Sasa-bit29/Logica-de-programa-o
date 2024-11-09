@@ -1,0 +1,10 @@
+while True :
+    nome = input("Digite seu nome: ")
+    idade = input("Digite sua idade: ")
+    print ("Nome: ", nome)
+    print ("Idade: ", idade)
+    resposta = input("Deseja inserir novos dados? s / n")
+    if resposta == "s" : 
+        continue
+    elif resposta == "n" : 
+        break
