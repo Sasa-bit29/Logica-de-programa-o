@@ -1,0 +1,17 @@
+#variavéis 
+nome = input("Digite o nome do produto: ")
+preco = float(input("Digite o preço: "))
+
+# condicionais 
+if preco < 2000 : 
+    desconto = "0%" 
+    preco_final = preco
+else : 
+    desconto = "20%" 
+    preco_final = preco - (preco * 0.20)
+
+# saída 
+print ("Nome do produto: ", nome)
+print ("Preço: ", preco)
+print ("Desconto: ", desconto)
+print ("Preço final: ", preco_final)
