@@ -1,0 +1,13 @@
+while True :
+    nome = input("Digite seu nome: ")
+    idade = input("Digite sua idade: ")
+    sexo = input("Digite seu sexo: ")
+    print ("\n")
+    print ("Nome: ", nome)
+    print ("Idade: ", idade)
+    print ("Sexo: ", sexo)
+    resposta = input("Deseja inserir novos dados? s / n")
+    if resposta == "s" : 
+        continue
+    else: 
+        break
