@@ -1,0 +1,12 @@
+nome = input("Digite o nome do aluno: ")
+nota = input("Digite a nota do aluno: ")
+if nota < "40" : 
+    print ("Reprovado!")
+    
+elif nota >= "60" : 
+    print ("Aprovado!")
+    
+elif nota >= "40" and nota <= "59" :
+    print ("Recuperção!")
+    
+    
