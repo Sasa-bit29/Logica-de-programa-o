@@ -1,0 +1,11 @@
+while True:
+    usuario = "Sarah linda"
+    senha_1 = "29/12"
+    login = input("Login: ")
+    senha = input("Senha: ")
+    if login == usuario and senha == senha_1 :
+        print ("Bem vindo,", usuario)
+        continue
+    else :
+        print ("Dados inválidos!")
+        break
