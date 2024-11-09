@@ -1,0 +1,9 @@
+contador = 1
+while contador <= 5  :
+    nome = input("Digite seu nome: ")
+    idade = input("Digite sua idade: ")
+    contador = contador + 1
+    print ("\n")
+    print ("Nome: ", nome)
+    print ("Idade: ", idade)
+    print ("\n")
