@@ -1,0 +1,9 @@
+numeros = []
+contador = 1
+while contador <= 8: 
+    numero = int(input("Digite um número: "))
+    numeros.append(numero)
+    maior = max(numeros)
+    contador = contador + 1 
+    
+print ("Maior número: ", maior)
