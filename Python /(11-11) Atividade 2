@@ -1,0 +1,17 @@
+nome = input("Digite o nome do aluno: ")
+nota_1 = float(input("Digite a nota: "))
+nota_2 = float(input("Digite a nota: "))
+nota_3 = float(input("Digite a nota: "))
+nota_4 = float(input("Digite a nota: "))
+nota = (nota_1 + nota_2 + nota_3 + nota_4)
+if nota >= 60 : 
+    resposta = ("Aprovado!")
+elif nota < 40 :
+    resposta = ("Reprovado!")
+else : 
+    resposta = ("Recuperação!")
+    
+print ("\n")
+print ("Aluno: ", nome)
+print ("Nota total: ", nota)
+print ("Situação final: ", resposta)
