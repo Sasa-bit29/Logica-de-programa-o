@@ -1,0 +1,15 @@
+while True :
+    real = float(input("Digite o valor em real: "))
+    dolar = real / 5.76
+    euro = real / 6.13
+    resposta = input("Digite a moeda a ser convertida: ")
+    print ("\n")
+    if resposta == "dolar" :
+        print ("Em dolár é: ", dolar)
+    elif resposta == "euro" :
+        print ("Em euro é: ", euro)
+    c = input("Deseja realizar uma nova conversão? ")
+    if c == "sim" : 
+        continue
+    else : 
+        break
