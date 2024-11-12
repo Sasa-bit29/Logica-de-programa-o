@@ -1,0 +1,12 @@
+pessoas = []
+while True : 
+    nome = input("Digite um nome: ")
+    idade = input("Digite sua idade: ")
+    pessoas.append((nome, idade))
+    continuar = input("Deseja inserir um novo nome? (s/n)")
+    if continuar !=  "s" and continuar == "n" : 
+        break
+print ("\nNomes e idades inseridos:")
+for pessoa in pessoas:
+    print(pessoa[0], pessoa[1])
+    
