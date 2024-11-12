@@ -1,0 +1,11 @@
+logins = []
+while True:
+    login = input("Login: ")
+    senha = input("Senha: ")
+    logins.append((login, senha)) 
+    continuar = input("Deseja fazer um novo cadastro? (s/n)")
+    if continuar !=  "s" and continuar == "n" : 
+        break
+print ("\nLogin e senha inseridos:")
+for login in logins:
+    print(login[0], login[1])
