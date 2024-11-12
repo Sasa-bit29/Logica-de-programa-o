@@ -1,0 +1,10 @@
+numeros = []
+while True : 
+    numero = input("Digite um número: ")
+    numeros.append(numero)
+    continuar = input("Deseja inserir um novo número? (s/n)")
+    if continuar !=  "s" and continuar == "n" : 
+        break
+print ("\nNúmeros inseridos:")
+for numero in numeros:
+    print(numero)
