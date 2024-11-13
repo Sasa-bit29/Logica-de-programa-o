@@ -1,0 +1,7 @@
+numeros = []
+contador = 1
+while contador <= 4 :
+    numero = float(input("Digite um número: "))
+    numeros.append(numero)
+    contador = contador + 1 
+    soma 
