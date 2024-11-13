@@ -1,0 +1,24 @@
+while True :
+    prgnt = input("Qual cálculo deseja realizar? Área do triângulo, área do quadrado ou valor de pi.")
+    
+    if prgnt == "area do triangulo" : 
+        base = float(input("Digite a base: "))
+        altura = float(input("Digite a altura: "))
+        calculo = base * altura / 2
+        
+    elif prgnt == "area do quadrado" :
+        lado = float(input("Digite o lado do quadrado: "))
+        calculo = lado**2
+        
+    else :
+        perimetro = float(input("Digite o perímetro: "))
+        diametro = float(input("Digite o diâmetro: "))
+        calculo = perimetro / diametro 
+        
+    print ("\n")
+    print ("Cálculo: ", prgnt)
+    print ("Resposta: ", calculo)
+    
+    continuar = input("Deseja realizar um novo cálculo? (s/n)")
+    if continuar !=  "s" and continuar == "n" : 
+        break
