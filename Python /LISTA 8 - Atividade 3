@@ -1,0 +1,19 @@
+while True :
+    usuario = input("Insira o usuário: ")
+    senha = input("Insira a senha: ")
+    print ("\n")
+    if usuario == "sarah linda" and senha == "29/12" :
+        nome = input("Digite seu nome: ")
+        salario = float(input("Digite seu salário: "))
+        rejs = salario * 0.10
+        reajuste = salario + rejs 
+        
+        print ("\n")
+        print ("Nome do funcionário: ", nome)
+        print ("Salário: ", salario)
+        print ("Reajuste: ", rejs)
+        print ("Novo salário: ", reajuste)
+        break
+    
+    else : 
+        continue
