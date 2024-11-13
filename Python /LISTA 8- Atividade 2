@@ -1,0 +1,25 @@
+while True :
+    nome = input("insira seu nome: ")
+    idade = input("Insira sua idade: ")
+    if idade >= "18" and idade < "70" :
+        voto = ("Voto obrigatório!")
+        
+    elif idade >= "16" and idade <= "17" :
+        voto =  ("Voto facultativo!")
+        
+    elif idade >= "70" :
+       voto =  ("Voto facultativo!") 
+    
+    else :
+        voto = ("Não precisa votar!")
+    
+    print ("\n")
+    print ("Nome: ", nome)
+    print ("Idade: ", idade)
+    print (voto)
+    
+    perg = input("Deseja verificar um novo dado? ")
+    if perg == "sim" :
+        continue 
+    else : 
+        break
