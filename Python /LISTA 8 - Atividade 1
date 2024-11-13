@@ -1,0 +1,10 @@
+nomes = []
+contador = 1 
+while contador <= 7 :
+    nome = input("Digite o nome: ")
+    nomes.append(nome)
+    contador = contador + 1 
+    
+print ("\nNomes inseridos: ")
+for nome in nomes :
+    print (nome)
