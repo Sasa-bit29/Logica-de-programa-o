@@ -1,0 +1,25 @@
+while True :
+    nome = input("Digite o nome do produto: ")
+    preco = float(input("Digite o preço: "))
+    qte = int(input("Digite a quantidade do produto: "))
+    resposta = input("Digite a forma de pagamento: pix, cartão. ")
+    qte_1 = qte * preco
+    
+    if resposta == "pix" :
+        desconto = ("15%")
+        valor_total = qte_1 - (qte_1 * 0.15)
+        
+    elif resposta == "cartão" :
+        desconto = ("0%")
+        valor_total = qte_1 
+        
+    print ("\n")  
+    print ("Nome do produto: ", nome)
+    print ("Preço: R$", preco)
+    print ("Desconto : ", desconto)
+    print ("Valor total: ", valor_total)
+    
+    prgnt = input("Deseja inserir um novo numero? s /n ")
+    if prgnt != "s" and prgnt == "n" :
+       break 
+
